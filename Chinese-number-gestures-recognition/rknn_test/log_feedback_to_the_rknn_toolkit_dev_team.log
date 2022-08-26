@@ -1,0 +1,11 @@
+D Using CPPUTILS: True
+D target set by user is: None
+E Catch exception when init runtime!
+E Traceback (most recent call last):
+E   File "rknn\api\rknn_base.py", line 907, in rknn.api.rknn_base.RKNNBase.init_runtime
+E   File "rknn\api\rknn_runtime.py", line 163, in rknn.api.rknn_runtime.RKNNRuntime.__init__
+E   File "rknn\api\rknn_runtime.py", line 226, in rknn.api.rknn_runtime.RKNNRuntime._load_library
+E   File "rknn\api\rknn_platform_utils.py", line 66, in rknn.api.rknn_platform_utils.get_rknn_api_lib_path
+E Exception: Simulator can not run on Windows_x64! Please set supported target!
+E Please feedback the detailed log file <log_feedback_to_the_rknn_toolkit_dev_team.log> to the RKNN Toolkit development team.
+E You can also check github issues: https://github.com/rockchip-linux/rknn-toolkit/issues
